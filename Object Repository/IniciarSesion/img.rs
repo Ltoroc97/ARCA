@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>3ba380d4-8f10-4c21-97ef-062f34bef164</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;s4-bodyContainer&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;contenedorPrincipal&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/img[1][count(. | //*[@alt = 'Logo EPM' and @src = '/sites/EPMJD-UAT/DTLRecursos/Imagenes/LogoMenuSuperior.png']) = count(//*[@alt = 'Logo EPM' and @src = '/sites/EPMJD-UAT/DTLRecursos/Imagenes/LogoMenuSuperior.png'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='s4-bodyContainer']/div[3]/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Logo EPM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/sites/EPMJD-UAT/DTLRecursos/Imagenes/LogoMenuSuperior.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;s4-bodyContainer&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;contenedorPrincipal&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='s4-bodyContainer']/div[3]/div/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Logo EPM']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>
