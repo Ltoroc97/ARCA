@@ -41,8 +41,6 @@ WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/Ingre
 
 WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/DiligenciarEncabezado/img_Bloqueo para actualizacin de anexos_btn_d5c92a'))
 
-WebUI.navigateToUrl('https://epmco.sharepoint.com/sites/EPMJD-UAT/SitePages/OrdenDia.aspx?Dato=266')
-
 WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/DiligenciarEncabezado/img'))
 
 WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/DiligenciarEncabezado/div_PuntoTemaDuracinInicioFinalCarcterComit_ab06b0'))

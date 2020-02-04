@@ -19,31 +19,38 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Orden del Dia/Crear Nueva Orden/Crear Encabezado/DiligenciarInformacion_Encabezado'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_/div_Agregar Tema'))
+WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/div_Agregar Tema'))
 
-WebUI.click(findTestObject('Page_/div_i  Cargando Formulario'))
+not_run: WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/div_i  Cargando Formulario'))
 
-WebUI.selectOptionByValue(findTestObject('Page_/select_Seleccione una FuenteAgenda TpicaFun_712602'), '4', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/select_Seleccione una FuenteAgenda TpicaFun_712602'), 
+    '4', true)
 
-WebUI.setText(findTestObject('Page_/input_Tema_OtroTema'), 'Automatización Pruebas')
+WebUI.setText(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/input_Tema_OtroTema'), 
+    'Automatización Pruebas')
 
-WebUI.selectOptionByValue(findTestObject('Page_/select_Seleccione un CarcterAprobatorioDeli_41a743'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/select_Seleccione un CarcterAprobatorioDeli_41a743'), 
+    '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_/select_Seleccione un ComitComit de Auditora_93b966'), '7', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/select_Seleccione un ComitComit de Auditora_93b966'), 
+    '7', true)
 
-WebUI.click(findTestObject('Page_/input'))
+WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/input'))
 
-WebUI.click(findTestObject('Page_/input'))
+WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/input'))
 
-WebUI.selectOptionByValue(findTestObject('Page_/select_Seleccione un AlcanceEPM MatrizGrupo EPMNA'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/select_Seleccione un AlcanceEPM MatrizGrupo EPMNA'), 
+    '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_/select_Seleccione una DependenciaDireccin S_196a9f'), '1', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/select_Seleccione una DependenciaDireccin S_196a9f'), 
+    '1', true)
 
-WebUI.setText(findTestObject('Page_/input_Duracin (Minutos)_Duracion'), '45')
+WebUI.setText(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/input_Duracin (Minutos)_Duracion'), 
+    '45')
 
-WebUI.click(findTestObject('Page_/div_Guardar'))
+WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/div_Guardar'))
 
-WebUI.click(findTestObject('Page_/img'))
+WebUI.click(findTestObject('Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/img'))
 
 WebUI.comment('Tema número dos')
 

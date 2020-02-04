@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/following::div[7]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '?!i  Cargando Formulario×' or . = '?!i  Cargando Formulario×') and @ref_element = 'Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/iframe_Crear un tema para el orden del da_D_108e24']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -9,6 +9,14 @@
          <key>XPATH</key>
          <value>//div[@id='crearTema']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;crearTema&quot;)[count(. | //*[@id = 'crearTema' and (text() = '
+					Agregar Tema' or . = '
+					Agregar Tema')]) = count(//*[@id = 'crearTema' and (text() = '
+					Agregar Tema' or . = '
+					Agregar Tema')])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -49,7 +57,7 @@
 					Agregar Tema</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

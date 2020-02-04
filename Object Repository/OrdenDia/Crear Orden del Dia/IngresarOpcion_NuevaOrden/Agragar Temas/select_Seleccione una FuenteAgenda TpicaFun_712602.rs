@@ -9,8 +9,20 @@
          <key>XPATH</key>
          <value>//select[@id='slcTipoTema']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;slcTipoTema&quot;)[count(. | //*[@id = 'slcTipoTema' and (text() = '
+					Seleccione una Fuente
+				Agenda TípicaFunciones de la Junta DirectivaOtrosSolicitudes ÁreasSolicitudes Miembros de JD' or . = '
+					Seleccione una Fuente
+				Agenda TípicaFunciones de la Junta DirectivaOtrosSolicitudes ÁreasSolicitudes Miembros de JD') and @ref_element = 'Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/iframe_Crear un tema para el orden del da_D_108e24']) = count(//*[@id = 'slcTipoTema' and (text() = '
+					Seleccione una Fuente
+				Agenda TípicaFunciones de la Junta DirectivaOtrosSolicitudes ÁreasSolicitudes Miembros de JD' or . = '
+					Seleccione una Fuente
+				Agenda TípicaFunciones de la Junta DirectivaOtrosSolicitudes ÁreasSolicitudes Miembros de JD') and @ref_element = 'Object Repository/OrdenDia/Crear Orden del Dia/IngresarOpcion_NuevaOrden/Agragar Temas/iframe_Crear un tema para el orden del da_D_108e24'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +55,7 @@
 				Agenda TípicaFunciones de la Junta DirectivaOtrosSolicitudes ÁreasSolicitudes Miembros de JD</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
