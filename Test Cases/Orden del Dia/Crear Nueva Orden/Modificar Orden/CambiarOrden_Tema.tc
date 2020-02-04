@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DiligenciarInformacion_Encabezado</name>
+   <name>CambiarOrden_Tema</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e3a52c16-18d5-48af-ae59-4e864ed2a271</testCaseGuid>
+   <testCaseGuid>a843ab90-34a6-49dd-afab-cee8bb343070</testCaseGuid>
 </TestCaseEntity>
